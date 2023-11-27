@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    margin-bottom: 59px;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+.header-menu-logo{
+    float: left;
+}
+.header-menu-pages{
+    display: flex;
+    float: left;
+    list-style-type: none;
+    gap: 35px;
+    margin-left: 87px;
+    margin-right: 58.95px;
+    cursor: pointer;
+}
+.header-menu-pages-li{
+    text-decoration: none;
+    position: relative;
+    transition: 0.2s;
+}
+.header-menu-pages-li:hover{
+    transition: 0.2s;
+    color: #3C4BDC;
+}
+.header-menu-pages-li::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #7580E6;
+    transition: 0.3s;
+    transform: scaleX(0);
+  }
+.header-menu-pages-li:hover:before {
+    transform: scaleX(1);
+  }
+.header-menu-account{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header-menu-account-bttn{
+    display: flex;
+    width: 150px;
+    height: 57px;
+    padding: 16px 46px 14px 46px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #3C4BDC;
+    border: none;
+    color: white;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.header-menu-account-bttn:hover{
+    transition: 0.5s;
+    background: #1F30D6;
+}
+.header-menu-account-text{
+    font-weight: bold;
+}
