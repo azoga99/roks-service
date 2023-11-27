@@ -111,6 +111,7 @@
 }
 .filter-select-wrapper1{
     position: relative;
+    width: 354px;
 }
 .filter-select-wrapper1::before{
     content: "";

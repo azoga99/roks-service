@@ -1,0 +1,117 @@
+.bttn_message{
+    height: 40px;
+    background: #E8EAFF;
+    width: 120px;
+    border: 1px solid#3C4BDC;
+    border-radius: 10px;
+    color: #3C4BDC;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    transition: 0.3s;
+}
+.bttn_message:hover{
+    background: #3C4BDC;
+    color: white;
+    transition: 0.3s;
+}
+.main-sensorStatus-item-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.main-sensorStatus{
+    display: flex;
+    height: 389px;
+    padding: 25px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: white;
+    margin: auto;
+    width: 1150px;
+    margin-top: 35px;
+}
+.main-sensorStatus-item{
+    width: 1128px;
+    height: 385px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FAFBFC;
+}
+.main-sensorStatus-quantity{
+    width: 350px;
+    height: 339px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FAFBFC;
+}
+.main-sensorStatus-item-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4%;
+}
+.main-sensorStatus-item-headline-h{
+    margin: 0;
+    font-size: 25px;
+}
+.main-sensorStatus-item-headline-p{
+    margin: 0;
+    font-size: 18px;
+}
+.main-sensorStatus-item-status-h{
+    color: var(--Red, #F33A4D);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 48px */
+    margin-top: 52px;
+}
+.main-sensorStatus-item-info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 497px;
+    margin-top: 52px;
+}
+.main-sensorStatus-item-info-lastStatus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+.main-sensorStatus-item-info-lastMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+.main-sensorStatus-item-info-lastStatus-h{
+    margin: 0;
+    font-size: 20px;
+}
+.main-sensorStatus-item-info-lastStatus-p{
+    margin: 0;
+    font-size: 18px;
+    color: #3C4BDC;
+}
+.main-sensorStatus-item-info-lastMessage-h{
+    margin: 0;
+    font-size: 20px;
+}
+.main-sensorStatus-item-info-lastMessage-p{
+    margin: 0;
+    font-size: 18px;
+    color: #3C4BDC;
+}

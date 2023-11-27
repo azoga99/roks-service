@@ -5,16 +5,19 @@ import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
 import FilterBuild from './components/filterBuild/FilterBuild';
 import MainMonitoring from './components/mainMonitoring/MainMonitoring';
+import CardsBuild from './components/cardBuild/CardsBuild';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <Header />
+        <Header />
         <Filter />
         <Main />
-        <Footer /> */}
-        <MainMonitoring />
+        <Footer />
+        {/* <MainMonitoring />
+        <CardsBuild />
+        <FilterBuild /> */}
       </div>
     </BrowserRouter>
   );

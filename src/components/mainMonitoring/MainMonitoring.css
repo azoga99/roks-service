@@ -1,5 +1,6 @@
 .mainn{
     background: var(--bgPage);
+    padding-bottom: 50px;
 }
 .main-title{
     display: flex;

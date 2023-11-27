@@ -1,4 +1,5 @@
-import './ListSensorFilters.css.css'
+import './ListSensorsFilters.css'
+
 function ListSensorFilters() {
     return (
         <div class="main-listsensor-filters">
@@ -18,7 +19,7 @@ function ListSensorFilters() {
                 </label>
             </div>
             <div class="main-listsensor-filters-select">
-                <div style="width: 354px;" class="filter-select-wrapper1">
+                <div class="filter-select-wrapper1">
                     <select class="filter-select-choise1" name="selection_of_area" id="">
                         <option value="1">Угарный газ</option>
                         <option value="2">Давление</option>
