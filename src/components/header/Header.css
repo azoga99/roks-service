@@ -24,6 +24,7 @@
     text-decoration: none;
     position: relative;
     transition: 0.2s;
+    color: black;
 }
 .header-menu-pages-li:hover{
     transition: 0.2s;

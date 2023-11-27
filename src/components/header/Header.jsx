@@ -1,6 +1,7 @@
 import './Header.css';
 import ProfileIcon from './../../img/icons/profile.svg';
 import LogoImage from './../../img/logo/logo_header.svg';
+import { NavLink } from 'react-router-dom';
 
 function Header () {
     return (
@@ -12,7 +13,7 @@ function Header () {
                 <a className="header-menu-pages-li">Новости</a>
                 <a className="header-menu-pages-li">Партнерам</a>
                 <a className="header-menu-pages-li">Контакты</a>
-                <a className="header-menu-pages-li">Мониторинг</a>
+                <NavLink to="/" className="header-menu-pages-li">Мониторинг</NavLink>
             </nav>
             <div className="header-menu-account">
                 <img className="header-menu-account-icon" src={ProfileIcon} alt="icon"></img>

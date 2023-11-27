@@ -4,7 +4,7 @@ import './CardBuild.css';
 
 function CardsBuild() {
     return (
-        <NavLink className="linkCardBuild">
+        <NavLink to="/monitoring" className="linkCardBuild">
             <div class="main-card-item">
                 <img class="main-card-item-img" src={ImageBuild} alt="picture" />
                 <h4 class="main-card-item-h4">Киселев Лев Георгиевич</h4>
