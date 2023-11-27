@@ -3,14 +3,14 @@
     height: 357px;
     flex-shrink: 0;
     border-radius: 31px;
-    background: var(--bgCards);
+    background: #FFFFFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    color: var(--main);
+    color: #3C4BDC;
     transition: .5s;
 }
 .main-card-item:hover{
-    background: var(--ActiveSensor);
-    color: var(--White);
+    background: #4C4EF5;
+    color: #F1F1F1;
 }
 .main-card-item-img{
     border-top-left-radius: 31px;
@@ -34,4 +34,7 @@
     font-weight: 400;
     margin-left: 17px;
     margin-top: 0;
+}
+.linkCardBuild{
+    text-decoration: none;
 }

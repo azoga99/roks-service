@@ -1,0 +1,118 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #192A3D;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+.footer-content-first{
+    display: flex;
+    width: 1200px;
+    max-width: 1290px;
+    padding: 70px 0px 51px 0px;
+    align-items: flex-start;
+    gap: 35px;
+    margin: auto;
+}
+.footer-content-first-logoOffer{
+    display: flex;
+    width: 396.66px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+.footer-content-first-logoOffer-text{
+    color: #ABB8C3;
+    font-size: 16px;
+}
+.footer-content-firts-navigation{
+    display: flex;
+    width: 396.67px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.footer-content-firts-navigation-text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.footer-content-firts-navigation-nav{
+    list-style-type: none;
+    color: #ABB8C3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.8px;
+    align-self: stretch;
+}
+.footer-content-first-contact{
+    display: flex;
+    width: 337px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+.footer-content-first-contact-list{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content-first-contact-list-item{
+    display: flex;
+}
+.footer-content-first-contact-headline{
+    color: #F1F1F1;
+    margin-top: 0;
+}
+.footer-content-first-contact-list-item-paragraph{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.footer-content-first-contact-list-item-paragraph-headline{
+    margin: 0;
+    color: #ABB8C3;
+    font-size: 15px;
+}
+.footer-content-first-contact-list-item-paragraph-text{
+    margin: 0;
+    color: #ABB8C3;
+    font-size: 15px;
+}
+.footer-content-second{
+    display: flex;
+    padding: 0px 75px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+.footer-content-second-content{
+    display: flex;
+    width: 1200px;
+    height: 70px;
+    padding: 25px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-content-second-content-text{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    color: #ABB8C3;
+}

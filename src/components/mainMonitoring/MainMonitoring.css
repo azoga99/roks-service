@@ -1,0 +1,14 @@
+.mainn{
+    background: var(--bgPage);
+}
+.main-title{
+    display: flex;
+    justify-content: center;
+    color: var(--main);
+    padding-top: 40px;
+}
+.main-listsensor{
+    width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+}

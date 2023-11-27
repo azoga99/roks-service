@@ -80,8 +80,8 @@
     content: " ";
     position: absolute;
     display: block;
-    width: 18px;
-    height: 19px;
+    width: 20px;
+    height: 20px;
     background: #7580E6;
     opacity: 0;
     transition: .2s;
@@ -107,8 +107,8 @@
     content: " ";
     position: absolute;
     display: block;
-    width: 18.5px;
-    height: 19px;
+    width: 20px;
+    height: 20px;
     background: #7580E6;
     opacity: 0;
     transition: .2s;

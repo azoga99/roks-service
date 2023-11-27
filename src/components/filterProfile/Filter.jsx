@@ -15,7 +15,7 @@ function Filter() {
                 <label class="filter-list-labelTwo">
                     <input class="filter-list-checkboxTwo" type="checkbox" />
                         <span class="FakeTwo"></span>
-                        <span class="filter-list-textTwo">Активные датчики</span>
+                        <span class="filter-list-textTwo">Нективные датчики</span>
                 </label>
             </div>
         </section>

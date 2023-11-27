@@ -4,11 +4,11 @@ import './CardProfile.css';
 
 function CardsProfile() {
     return (
-        <NavLink>
-            <div onclick="location.href='Build.html';" class="main-card-item">
-                <img class="main-card-item-img" src={ImageProfile} alt="picture" />
-                <h4 class="main-card-item-h4">Киселев Лев Георгиевич</h4>
-                <p class="main-card-item-text">Закреплено: 20 зданий</p>
+        <NavLink className="linkCard">
+            <div className="main-card-item">
+                <img className="main-card-item-img" src={ImageProfile} alt="picture" />
+                <h4 className="main-card-item-h4">Киселев Лев Георгиевич</h4>
+                <p className="main-card-item-text">Закреплено: 20 зданий</p>
             </div>
         </NavLink>
     )

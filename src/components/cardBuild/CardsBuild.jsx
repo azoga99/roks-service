@@ -4,8 +4,8 @@ import './CardBuild.css';
 
 function CardsBuild() {
     return (
-        <NavLink>
-            <div onclick="location.href='Build.html';" class="main-card-item">
+        <NavLink className="linkCardBuild">
+            <div class="main-card-item">
                 <img class="main-card-item-img" src={ImageBuild} alt="picture" />
                 <h4 class="main-card-item-h4">Киселев Лев Георгиевич</h4>
                 <p class="main-card-item-text">Закреплено: 20 зданий</p>

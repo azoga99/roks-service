@@ -1,0 +1,122 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 77px;
+    border-radius: 17px;
+    background: #E8EAFF;
+    align-items: center;
+    margin: auto;
+}
+.filter-list{
+    display: flex;
+}
+.filter-list-textOne{
+    margin-left: 11px;
+    margin-right: 40px;
+    color: #3C4BDC;
+}
+.filter-list-textTwo{
+    margin-left: 11px;
+    margin-right: 46px;
+    color: #3C4BDC;
+}
+.filter-field_input{
+    width: 230px;
+}
+.filter-field_input-text{
+    margin-left: 30px;
+    color: #9FA7FF;
+    border-bottom: 1px solid #7580E6;
+}
+.filter-select-choise{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #7580E6;
+    background: #D9DDFF;
+    outline: none;
+    padding: 4px 13px 4px 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3C4BDC;
+    width: 100%;
+}
+.filter-select-wrapper{
+    position: relative;
+}
+.filter-select-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    transform: translateY(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 6px 0 6px;
+    border-color: #9fa7ff transparent transparent transparent;
+    pointer-events: none;
+}
+.filter-list-checkboxOne{
+    display: none;
+}
+.filter-list-checkboxTwo{
+    display: none;
+}
+.FakeOne{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #7580E6;
+    position: relative;
+}
+.FakeOne::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #7580E6;
+    opacity: 0;
+    transition: .2s;
+}
+.filter-list-labelOne{
+    display: flex;
+    align-items: center;
+}
+.filter-list-checkboxOne:checked + .FakeOne::before{
+    opacity: 1;
+}
+.FakeTwo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid#7580E6;
+    position: relative;
+}
+
+.FakeTwo::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #7580E6;
+    opacity: 0;
+    transition: .2s;
+}
+.filter-list-labelTwo{
+    display: flex;
+    align-items: center;
+}
+.filter-list-checkboxTwo:checked + .FakeTwo::before{
+    opacity: 1;
+}

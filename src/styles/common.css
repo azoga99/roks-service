@@ -1,3 +1,33 @@
+/* Global styles */
+:root {
+    /* MainColor */
+    --White: #F1F1F1;
+    --main: #3C4BDC;
+    --bg: #E8EAFF;
+    --pressed: #1F30D6;
+    --hover: #7580E6;
+    --stroke: #18217D;
+    /* SecondaryColor */
+    --bgPage: #F6F6F6;
+    --bgCards: #FFFFFF;
+    --bgComponents: #D9DDFF;
+    --bgFooter: #192A3D;
+    --textComponents: #9FA7FF;
+    /* TextMonitoring */
+    --headline: #000000;
+    --paragraph: #828F9D;
+    --ActiveSensor: #4C4EF5;
+    --InactiveSensor: #E53939;
+    /* QuantitySensor */
+    --Active: #4C4EF5;
+    --Inactive: #E53939;
+    /* StatusSensor */
+    --ActiveGradient: linear-gradient(180deg, #4C4EF5 0%, rgba(102, 76, 245, 0.90) 100%);
+    --InactiveGradient: linear-gradient(180deg, #F54C4C 0%, rgba(243, 88, 163, 0.77) 100%);
+    /* Icon */
+    --colorArrow: #9FA7FF;
+}
+
 body {
     /* width: 1200px; */
     margin: 0 auto;
